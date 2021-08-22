@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Quick Draw Canvas!</title>
+  <title>Quick Draw Paint!</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<!--on load alert for letting consumer know what they need to draw-->
+<body onload="alert_for_class()">
+
+<h1>
+  Hey! Welcome to QuickDraw, where you draw and we make it real :)
+</h1>
+
+<h2>Please draw below!</h2>
+
+<!--color and pen size selector-->
+<input type="color"  class="js-color-picker  color-picker">
+<input type="range" class="js-line-range" min='4' max='10' value="2">
+<label class="js-range-value">1</label>Px 
+
+<!--canvas for drawing and display-->
+<canvas id ='drawingarea' class="js-paint  paint-canvas" width="700" height="500"></canvas>
+
+
+<!--buttons for clearing image and submiting image-->
+<button class="button button1" onclick=clearDrawing()>Clear Image</button>
+<button class="button button2" onclick=submitDrawing1()>Submit Drawing!</button>
+
+
+<h2>Generated Image!</h2>
+<canvas id ='displayarea' class="js-paint  paint-canvas" width="700" height="500"></canvas>
+
+
+
+
+
+
+<!-- js essentials-->
+<script  src="../static/js/index.js"></script>
+
+</body>
+</html>

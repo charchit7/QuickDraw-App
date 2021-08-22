@@ -1,0 +1,63 @@
+.paint-canvas {
+  border: 5px black solid;
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  background-color: white;
+  
+}
+
+.color-picker {
+  margin: 1rem 1rem 0 1rem;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid red;
+  position:center
+}
+
+.button1:hover {
+  background-color:red;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  position: center;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+body{
+  background-image: url('/static/images/undraw_Design_thinking_re_644h.svg');
+  /* background-size:initial; */
+  background-repeat:repeat;
+  background-size: 720px;
+}
+
+.h1{
+  font-family:'Courier New', Courier, monospace;
+}
+
+.h1{
+  font-family:fantasy;
+}
