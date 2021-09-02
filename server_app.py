@@ -52,7 +52,7 @@ def sketch():
                 pred = data_classes[xx]
 
         print('Image received: {}'.format(a.shape))
-        r = requests.post("https://api.deepai.org/api/text2img",data={'text': pred,},headers={'api-key': '800c051a-ca4f-4492-8311-bf28b800f904'})
+        r = requests.post("https://api.deepai.org/api/text2img",data={'text': pred,},headers={'api-key': 'abc'}) #api can be generated from the deepai.org page
         url = r.json()['output_url']
 
         # return base64.encodebytes(image_data)
