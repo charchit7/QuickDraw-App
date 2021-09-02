@@ -1,3 +1,4 @@
+
 ## QuickDraw Application!
 
 Used the QuickDraw Dataset found on the official website.
@@ -18,7 +19,13 @@ Implement StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generat
 
  - Draw on the Canvas Provided.
  -   Click on Submit.
-  -  On Submit api call to model --> predicted text --> text goes to deepai api --> result shown as predicted image. 
+ -  On Submit api call to model --> predicted text --> text goes to deepai api --> result shown as predicted image. 
+
+## Run : 
+
+ - Install the requirements.txt
+ -  On terminal, set the Flask env : **export flask_app = server_app**
+ -  then **Flask run**
 
 ## Demo : 
 https://user-images.githubusercontent.com/21178353/130356768-d2d19ba2-fb6d-4055-b348-d476f3a71efe.mp4
